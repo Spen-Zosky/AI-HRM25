@@ -1,0 +1,39 @@
+name: Export KPI Dashboard
+on:
+  push:
+    paths:
+      - 'templates/KPI_Tracker_Master.xlsx'
+
+jobs:
+  build-dashboard:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: pip install pandas openpyxl markdown
+
+      - name: Generate markdown dashboard
+        run: |
+          python - << 'PY'
+          import pandas as pd, pathlib
+          df = pd.read_excel('templates/KPI_Tracker_Master.xlsx')
+          md = df.to_markdown(index=False)
+          path = pathlib.Path('readme_assets/kpi_dashboard.md')
+          path.parent.mkdir(exist_ok=True)
+          path.write_text(md, encoding='utf-8')
+          PY
+
+      - name: Commit dashboard
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'action@github'
+          git add readme_assets/kpi_dashboard.md
+          git commit -m "ci: auto‑update KPI dashboard" || echo "No changes"
+          git push
