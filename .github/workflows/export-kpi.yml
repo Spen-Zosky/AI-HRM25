@@ -1,5 +1,6 @@
 name: Export KPI Dashboard
 on:
+  workflow_dispatch:       # ← pulsante “Run workflow”
   push:
     paths:
       - 'templates/KPI_Tracker_Master.xlsx'
@@ -17,7 +18,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install deps
-        run: pip install pandas openpyxl markdown
+        run: pip install pandas openpyxl markdown tabulate
 
       - name: Generate markdown dashboard
         run: |
