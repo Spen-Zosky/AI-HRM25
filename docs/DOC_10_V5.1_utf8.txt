@@ -1,0 +1,26 @@
+: 19-AI_HRM25_GLOSSARIO_V5.docx
+(Inizio Testo V5 - Sostituisce il V4 Originale)
+AI-HRM25  GLOSSARIO (V5 - 2025)
+(Collegamento al Servizio: Questo glossario è uno strumento di supporto trasversale, utile in tutte le fasi del servizio per garantire una comprensione comune della terminologia chiave.)
+Perfetto, ecco il glossario completo basato sui termini utilizzati e definiti nei documenti AI-HRM25 V5 che abbiamo appena generato.
+
+Glossario Completo AI-HRM25 (Basato su Documenti V5 - 2025)
+AI (Artificial Intelligence) / Intelligenza Artificiale: Insieme di tecnologie e discipline che mirano a creare sistemi capaci di apprendere, ragionare, decidere e adattarsi in modi simili a quelli umani, applicati qui al contesto HR. Include sotto-campi come Machine Learning, Natural Language Processing (NLP), Generative AI.
+AI Act (EU): Regolamento dell'Unione Europea (atteso/in vigore nel 2025) che stabilisce un quadro giuridico armonizzato per l'intelligenza artificiale, classificando i sistemi AI in base al rischio (molti sistemi HR sono considerati "alto rischio") e imponendo requisiti specifici.
+AI Readiness: Grado complessivo di preparazione tecnica (dati, infrastruttura), culturale (apertura al cambiamento, competenze digitali) e organizzativa (processi, sponsorship) di un'azienda all'integrazione efficace e responsabile dell'AI nei propri processi, specificamente quelli HR.
+Bias (Algoritmico/Nei Dati): Tendenza sistematica di un algoritmo AI o dei dati su cui è addestrato a produrre risultati che favoriscono o sfavoriscono ingiustamente determinati gruppi di persone (es. basati su genere, età, etnia), portando a decisioni discriminatorie.
+Bias Mitigation / Mitigazione del Bias: Insieme di tecniche e processi applicati durante il ciclo di vita dell'AI (raccolta dati, addestramento modello, monitoraggio) per identificare, ridurre o eliminare i bias e promuovere l'equità (Fairness).
+Change Management Toolkit: (Riferimento a strumento AI-HRM25) Set di strumenti, template e metodologie per gestire attivamente l'aspetto umano della trasformazione Human+AI, includendo comunicazione, gestione resistenze, formazione e coinvolgimento stakeholder.
+Dashboard KPI Evolutiva: (Strumento AI-HRM25) Cruscotto digitale interattivo che visualizza l'andamento dei KPI Evolutivi chiave nel tempo, spesso con soglie dinamiche, alert predittivi e capacità di drill-down per analisi approfondite.
+Data Scarcity / Scarsità di Dati: Situazione comune in PMI/Startup in cui i dati storici disponibili per addestrare modelli AI o effettuare analisi approfondite sono limitati in quantità, qualità o completezza. Richiede strategie specifiche (vedi FASE 1).
+Explainable AI (XAI) / AI Spiegabile: Approccio e insieme di tecniche che permettono ai sistemi AI di fornire spiegazioni comprensibili agli umani riguardo alle proprie decisioni, output o raccomandazioni, aumentando la trasparenza e la fiducia.
+GDPR (General Data Protection Regulation): Regolamento UE 2016/679 sulla protezione dei dati personali, pienamente applicabile al trattamento dei dati dei dipendenti, anche mediante sistemi AI.
+Governance Adattiva: (Concetto AI-HRM25) Sistema di monitoraggio, controllo e decisione relativo all'ecosistema HR+AI che è progettato per evolversi dinamicamente in risposta a cambiamenti nei dati, performance, normative, tecnologia e obiettivi aziendali.
+Human+AI: (Principio AI-HRM25) Modello di collaborazione sinergica tra persone e tecnologie intelligenti, in cui l'AI potenzia le capacità umane (analisi, predizione, automazione task ripetitivi) e le persone forniscono contesto, giudizio critico, empatia e decisione finale. Non è sostituzione, ma potenziamento reciproco.
+KPI (Key Performance Indicator) / Indicatore Chiave di Prestazione: Misura quantificabile utilizzata per valutare il successo nel raggiungere specifici obiettivi di business o di processo.
+KPI Evolutivi: (Concetto AI-HRM25) Set specifico di KPI progettati per misurare non solo i risultati finali, ma anche l'avanzamento e l'impatto della trasformazione Human+AI attraverso le 4 Fasi del framework, includendo aspetti di capacità organizzativa (es. Readiness, Adozione, Governance Attiva).
+Logbook: (Strumento AI-HRM25) Registro strutturato e cronologico di eventi, modifiche, performance (es. AI Retraining Logbook), decisioni o anomalie relative all'implementazione e gestione dell'ecosistema HR+AI. Serve per tracciabilità, audit e apprendimento.
+Retraining AI: (Processo AI-HRM25 - Fase 4) Processo periodico di ri-addestramento dei modelli di Machine Learning con dati più recenti per mantenere o migliorare la loro accuratezza predittiva e adattarli ai cambiamenti del contesto.
+ROI (Return on Investment): Metrica finanziaria utilizzata per valutare la redditività di un investimento, calcolata come il rapporto tra il beneficio netto ottenuto e il costo dell'investimento stesso. Nel contesto AI-HRM25, si stima l'impatto economico dei miglioramenti sui KPI rispetto ai costi di consulenza e implementazione.
+
+(Fine Testo V5 - 19-GLOSSARIO)

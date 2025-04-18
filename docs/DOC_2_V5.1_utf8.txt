@@ -1,0 +1,51 @@
+(Revisionato): 11-AI_HRM25_FASE1_V5.1.docx
+(Inizio Testo V5.1 - Sostituisce V5 Precedente)
+AI-HRM25  GUIDA COMPLETA (FASE 1 / MODULO 1: ASSESSMENT)
+FASE 1  DIAGNOSI STRATEGICA AI-POWERED
+(Collegamento al Servizio: Questa fase corrisponde al Modulo 1: ASSESSMENT AI-HR Readiness del servizio di consulenza. Fornisce la base conoscitiva per ogni trasformazione.)
+La Fase 1 ha lobiettivo di costruire una visione chiara, condivisa e basata su dati reali del sistema HR aziendale, valutandone la preparazione all'adozione dell'AI (AI Readiness). Attraverso l'analisi dei dati disponibili, strumenti AI (anche predittivi) e la valutazione qualitativa, questa fase identifica pattern nascosti, rischi critici (es. turnover), opportunità trasformative e stabilisce una baseline misurabile per il futuro.
+1. Obiettivi Specifici
+Mappare e valutare la disponibilità, qualità e accessibilità dei dati HR esistenti.
+Raccogliere dati qualitativi su cultura, processi e apertura all'innovazione HR.
+Identificare rischi HR prioritari (es. turnover, skill gap, disengagement) usando analisi descrittive e, se i dati lo permettono, predittive.
+Segmentare la popolazione aziendale in cluster significativi per future azioni mirate.
+Valutare l'AI Readiness complessiva (tecnica, culturale, processi).
+Stabilire la baseline dei KPI evolutivi chiave per questa fase.
+Fornire insight operativi e una roadmap preliminare per la Fase 2 (Design).
+2. Output Attesi
+HR DataMap: Mappa visuale delle fonti dati HR, variabili chiave, qualità e accessibilità. (Nota: Qui andrebbe inserita una descrizione/esempio visivo della DataMap).
+Data Readiness Checklist compilata e valutata: Report sullo stato dei dati e azioni correttive iniziali. (Nota: Qui andrebbe inserita una descrizione/esempio visivo della Checklist e del suo output).
+Report di Analisi Descrittiva e Predittiva: Include heatmap di rischio, mappe di engagement, clusterizzazione motivazionale/comportamentale (se fattibile), analisi turnover risk (XGBoost o simili).
+AI Insight Dashboard (Versione Iniziale): Cruscotto con i principali insight emersi e la baseline dei KPI. (Nota: Qui andrebbe inserito un mockup visivo della dashboard).
+Risk & Opportunity Map: Documento sintetico che evidenzia i principali rischi HR emersi e le opportunità di intervento prioritarie con AI.
+Report di AI Readiness: Valutazione complessiva della preparazione aziendale all'AI nell'HR.
+3. Metodologia Operativa
+Kick-off e Allineamento: Definizione scope, obiettivi, team di lavoro (cliente/consulente), piano attività.
+Data Mapping & Quality Assessment: Interviste (HR, IT), analisi documentale, compilazione HR DataMap e Data Readiness Checklist.
+Strategie per Data Scarcity: Se i dati quantitativi sono limitati o di bassa qualità (comune in PMI):
+Focus Qualitativo: Approfondire interviste, focus group, analisi processi manuali per raccogliere insight contestuali.
+Dati Proxy: Utilizzare indicatori indiretti (es. dati utilizzo badge, log sistemi) con cautela, sempre validandoli qualitativamente.
+Avvio Raccolta Dati Mirata: Definire subito quali dati chiave iniziare a raccogliere in modo strutturato per il futuro (es. tramite survey mirate, performance review strutturate).
+Benchmark Cauti: Usare dati di settore con estrema cautela, riconoscendo le specificità della PMI.
+Analisi Dati & Modellazione (se fattibile): Integrazione dati disponibili, analisi descrittive, clustering (es. K-means), modellazione predittiva (es. Turnover Risk con XGBoost). Importante: valutare sempre la fattibilità e l'affidabilità dei modelli con dati limitati.
+Analisi Qualitativa: Survey di Readiness AI (vedi CALL_TO_ACTION), interviste su cultura e processi.
+Validazione e Interpretazione: Workshop con HR e manager per validare i risultati delle analisi (quantitative e qualitative), interpretare gli insight e co-creare la Risk & Opportunity Map.
+Definizione Baseline KPI (Nuova Enfasi): Stabilire formalmente il valore iniziale (baseline) per ogni KPI Evolutivo (e generale, se rilevante) selezionato. Strategie per la Definizione della Baseline con Dati Limitati: Se i dati storici sono assenti o inaffidabili per un KPI, considerare: a) Utilizzare la prima misurazione valida effettuata durante la Fase 1 come baseline "Anno 0"; b) Integrare con valutazioni qualitative strutturate (es. punteggi interviste, assessment processi); c) Utilizzare dati proxy temporaneamente, documentandone i limiti; d) Stabilire la baseline dopo il primo ciclo completo di raccolta dati strutturati avviato in questa fase. È cruciale documentare come ogni baseline è stata stabilita.
+4. Strumenti di Supporto (AI-HRM25 Toolkit - Fase 1)
+Data Readiness Checklist: Template per valutare dati HR. (Nota: Idealmente link a un template testuale/descrizione in Appendice V5).
+HR DataMap: Metodologia e template (visivo/descrittivo) per mappare le fonti dati. (Nota: Idealmente link a un template testuale/descrizione in Appendice V5).
+AI Insight Dashboard: Strumento di visualizzazione (configurato su tool cliente o fornito come mockup).
+Risk & Opportunity Map: Template di reportistica.
+5. Considerazioni GDPR e Etiche (Fase 1)
+Base Giuridica: Verificare la base giuridica per la raccolta e l'analisi dei dati HR (legittimo interesse, consenso informato per survey specifiche?).
+Informativa Dipendenti: Assicurarsi che i dipendenti siano informati sul trattamento dei loro dati per finalità di analisi HR (anche aggregate/anonimizzate).
+Minimizzazione Dati: Raccogliere e analizzare solo i dati strettamente necessari per gli obiettivi della diagnosi.
+Bias nei Dati: Essere consapevoli dei possibili bias presenti nei dati storici (genere, età, ruolo...) e documentarli. In questa fase, l'obiettivo è identificarli, la mitigazione avverrà nelle fasi successive.
+Anonimizzazione/Pseudonimizzazione: Valutare tecniche per ridurre i rischi privacy durante l'analisi, specialmente con dati sensibili.
+6. Mini Case Study Illustrativo
+Scenario: Una PMI manifatturiera con 150 dipendenti lamenta un turnover elevato e non compreso nel reparto produzione.
+Applicazione Fase 1: Viene compilata la Data Readiness Checklist (dati anagrafici e presenze digitalizzati, survey clima cartacee). Si conduce un'analisi descrittiva (turnover maggiore tra operai <3 anni anzianità) e interviste mirate. Si avvia una survey digitale per raccogliere dati su engagement e percezione del management (questa servirà anche come baseline per il KPI Clima Organizzativo).
+Output: La Risk & Opportunity Map evidenzia come priorità l'onboarding e lo sviluppo dei neo-assunti in produzione. L'AI Insight Dashboard mostra la baseline del turnover e i risultati della survey. La Readiness è valutata media (dati parziali, cultura da sviluppare).
+7. KPI Evolutivi (Fase 1)
+(Vedi documento 16-AI_HRM25_KPI_EVOLUTIVI_V5.1.docx per lista dettagliata, metodi misurazione suggeriti e identificazione Set Core)
+(Fine Testo V5.1 - 11-FASE1)

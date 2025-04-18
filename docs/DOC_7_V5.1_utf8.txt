@@ -1,0 +1,132 @@
+(Revisionato): 16-AI_HRM25_KPI_EVOLUTIVI_V5.1.docx
+(Inizio Testo V5.1 - Sostituisce V5 Precedente)
+AI-HRM25  KPI EVOLUTIVI PER FASE (V5.1 - 2025)
+(Collegamento al Servizio: Questo documento elenca i KPI specifici utilizzati per monitorare l'avanzamento e l'impatto del servizio di consulenza in ogni sua fase/modulo. Include metodi di misurazione suggeriti e identifica un Set Core per PMI.)
+Introduzione
+Questa sezione elenca i KPI Evolutivi chiave per ciascuna delle 4 Fasi del framework AI-HRM25. Questi indicatori sono progettati per tracciare non solo i risultati, ma anche la progressione delle capacità organizzative nell'adottare e valorizzare l'approccio Human+AI. Per ogni KPI viene suggerito un metodo di misurazione pratico.
+Nota Importante per PMI/Startup: Si consiglia alle organizzazioni più piccole o all'inizio del percorso di selezionare un "Set Core" di 2-3 KPI per fase, identificati con [CORE] qui sotto. Questo Set Core si focalizza sugli indicatori più rilevanti e misurabili con risorse limitate, e può essere ampliato successivamente.
+Fase 1  Diagnosi AI-Powered
+KPI
+Descrizione
+Metodo di Misurazione Suggerito
+Nota per Set Core
+
+% digitalizzazione processi HR
+Percentuale dei processi HR mappati e con dati gestiti digitalmente.
+Mappatura processi + Assessment fonti dati (output HR DataMap).
+[CORE]
+
+Clima organizzativo
+Livello di soddisfazione/engagement percepita.
+Punteggio medio su domande chiave di survey specifiche (es. eNPS, survey clima); oppure analisi NLP sentiment su commenti aperti.
+Opzionale
+
+Readiness organizzativa
+Indice composito di preparazione tecnica e culturale all'AI.
+Indice ponderato basato su Data Readiness Checklist (focus dati chiave) + Survey Readiness AI (focus cultura/competenze).
+[CORE]
+
+Accuratezza raccolta feedback
+Capacità del sistema (se usato NLP) di interpretare il sentiment/tema.
+Se NLP: F1-score/Precision/Recall su test set validato; Altrimenti: Valutazione qualitativa pertinenza insight generati.
+Opzionale
+
+Gap formativi iniziali
+Distanza stimata tra competenze attuali e richieste per Human+AI.
+Analisi skill attuali (da HRIS/valutazioni) vs. mappatura competenze target Human+AI + interviste/assessment mirati.
+[CORE]
+
+Fase 2  Design Strategico AI-Enhanced
+KPI
+Descrizione
+Metodo di Misurazione Suggerito
+Nota per Set Core
+
+% processi riprogettati
+Quota dei processi HR target effettivamente ridisegnati con logica Human+AI.
+Numero processi con Blueprint Human+AI validato / Numero processi target identificati in HR-AI Target Map.
+[CORE]
+
+Engagement stakeholder
+Livello di coinvolgimento attivo (HR, IT, Business) nel co-design.
+Punteggio medio survey post-workshop + % partecipazione attiva (vs. invitati) ai workshop/rituali di Fase 2.
+[CORE]
+
+Coerenza soluzione-bisogno
+Allineamento percepito tra design proposto e bisogni reali emersi.
+Valutazione media (scala 1-5) da parte degli stakeholder chiave sul Blueprint finale vs. Risk & Opportunity Map Fase 1.
+Opzionale
+
+Copertura funzionale AI
+Numero/Percentuale di funzioni HR target previste per supporto AI nel design.
+Conteggio funzioni specifiche (es. screening CV, raccomandazione corsi, predizione turnover) incluse nell'architettura.
+Opzionale
+
+Governance definita
+% delle soluzioni AI progettate con chiari owner e bozza di policy d'uso.
+Verifica documentale: % soluzioni in AI HR Architecture Canvas con owner assegnato e bozza policy allegata.
+[CORE]
+
+Fase 3  Implementazione Human-AI
+KPI
+Descrizione
+Metodo di Misurazione Suggerito
+Nota per Set Core
+
+% adozione strumenti AI
+Quota utenti target (pilota) attivi sulle piattaforme/funzionalità AI.
+Numero utenti attivi (login/uso > X volte) / Numero utenti target nel periodo; Oppure % completamento task chiave con tool AI.
+[CORE]
+
+% formazione completata
+Percentuale utenti target (pilota) che hanno completato il training Human+AI.
+Numero utenti con attestato/verifica completamento / Numero utenti target.
+[CORE]
+
+% soddisfazione duso
+Feedback medio sull'esperienza utente con gli strumenti AI pilota.
+Punteggio medio (scala 1-5 o 1-10) da survey post-utilizzo (Feedback Intelligence Engine).
+[CORE]
+
+Tasso successo prototipi
+% prototipi validati e pronti per rollout (vs. abbandonati/da rifare).
+Numero prototipi approvati per rollout / Numero prototipi avviati in Fase 3.
+Opzionale
+
+Copertura funzionale strumenti
+% dei flussi Human+AI previsti effettivamente attivati nel pilota.
+Numero funzioni/flussi attivi nel pilota / Numero funzioni/flussi previsti dal Design (Fase 2) per il pilota.
+Opzionale
+
+Fase 4  Continuous Feedback & Optimization
+KPI
+Descrizione
+Metodo di Misurazione Suggerito
+Nota per Set Core
+
+% retraining AI
+Frequenza effettiva di aggiornamento degli algoritmi AI (vs. pianificata).
+Numero retraining effettuati / Numero retraining pianificati nel periodo; Oppure Tempo medio tra retraining.
+Opzionale
+
+Modifiche post-feedback
+Numero/Impatto dei miglioramenti implementati a seguito di feedback utenti.
+Conteggio azioni completate nell'Insight-to-Action Tracker originate da feedback + valutazione qualitativa impatto.
+[CORE]
+
+Frequenza Aggiornamento Dati / Latenza
+Rapidità con cui i dati/KPI sono aggiornati e disponibili.
+Indicare frequenza definita (Giornaliera, Settimanale...) o Latenza massima target (es. < 24h). (Sostituisce "Tempo reazione dashboard").
+Opzionale
+
+Rituali di governance attivi
+% dei momenti di review e decisione effettivamente svolti come pianificato.
+Numero rituali svolti / Numero rituali pianificati nel periodo (da Adaptive Governance Tracker).
+[CORE]
+
+KPI strategici migliorati
+Numero/Valore di indicatori HR core (es. turnover, TTH) che mostrano miglioramento sostenibile attribuibile a HR+AI.
+Analisi trend KPI Generali selezionati + correlazione qualitativa/quantitativa con interventi HR+AI documentati.
+[CORE]
+
+(Fine Testo V5.1 - 16-KPI_EVOLUTIVI)
