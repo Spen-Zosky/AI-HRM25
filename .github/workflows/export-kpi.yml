@@ -1,4 +1,6 @@
 name: Export KPI Dashboard
+permissions:
+  contents: write
 on:
   workflow_dispatch:       # ← pulsante “Run workflow”
   push:
