@@ -1,0 +1,2 @@
+| KPI Name   | Definition   | Phase   | Data Source   | Owner   | Baseline   | Target   | Current Value   | Trend   | Last Updated   | Status (On/Off Track)   |
+|------------|--------------|---------|---------------|---------|------------|----------|-----------------|---------|----------------|-------------------------|
