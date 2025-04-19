@@ -43,4 +43,8 @@ jobs:
           git config --global user.email 'action@github'
           git add readme_assets/kpi_dashboard.md
           git commit -m "ci: auto‑update KPI dashboard" || echo "No changes"
-          git push
+          # ---- nuovo: allinea con main remoto ----
+          git pull --rebase origin "${{ github.ref_name }}"
+          git push origin "${{ github.ref_name }}"
+
+
