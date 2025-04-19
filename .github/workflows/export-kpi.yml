@@ -3,7 +3,7 @@ permissions:
   contents: write
 
 on:
-  workflow_dispatch:       # ← pulsante “Run workflow”
+  workflow_dispatch:
   push:
     paths:
       - 'templates/KPI_Tracker_Master.xlsx'
@@ -43,8 +43,9 @@ jobs:
           git config --global user.email 'action@github'
 
           git add readme_assets/kpi_dashboard.md
-          git commit -m "ci: auto‑update KPI dashboard" || echo "No changes"
+          git commit -m "ci: auto-update KPI dashboard" || echo "No changes"
 
-          # riallinea e sovrascrivi se necessario
+          # riallinea con main remoto
           git pull --rebase origin ${{ github.ref_name }}
+          # forza il push solo se il remoto non è cambiato
           git push --force-with-lease origin ${{ github.ref_name }}
